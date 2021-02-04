@@ -1,0 +1,153 @@
+    body {
+        font-family: 'Georgia', serif;
+        background-color: #FCF0EB;
+        font-weight: 400;
+        font-style: normal;
+        color: #1732CC;
+    }
+
+    a {
+        padding: 0;
+        border: none;
+        background: none;
+        text-decoration: none;
+        color: #1732CC;
+        border-bottom: 1px solid #1732CC;
+        outline: none;
+        -webkit-transition: 0.3s all ease;
+        transition: 0.3s ease all;
+    }
+
+    a:visited {
+        color: #1732CC;
+        border-bottom: 1px solid #1732CC;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+
+    a:hover {
+        color: #F92900;
+        border-bottom: 1px solid #F92900;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+
+    a:focus {
+        color: #F92900;
+        border-bottom: 1px solid #F92900;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+
+    ::selection {
+        color: #F92900;
+        background: #FCDDD1;
+    }
+
+    ::-moz-selection {
+        color: #F92900;
+        background: #FFF9F2;
+    }
+
+
+    @media print,
+    screen and (max-width: 40em) {
+
+        .paddingsmall {
+            margin-top: 8px;
+        }
+
+        .paddingmedium {
+            margin-top: 40px;
+        }
+
+        .paddingbig {
+            margin-top: 40px;
+        }
+
+        .padding56 {
+            margin-top: 24px;
+        }
+
+    }
+ .paddingxsmall {
+        margin-top: 8px;
+    }
+ .paddingxxsmall {
+        margin-top: 4px;
+    }
+
+    .paddingsmall {
+        margin-top: 24px;
+    }
+
+    .paddingmedium {
+        margin-top: 80px;
+    }
+
+    .paddingbig {
+        margin-top: 120px;
+    }
+
+    .social {
+        margin-right: 16px;
+    }
+
+    .paddingfoo {
+        margin-bottom: 40px;
+    }
+
+    .titulo {
+        margin: 56px 0px 80px 0px;
+    }
+
+.modalstyle {
+        background-color: #F92900;
+        color: #FCF0EB;
+
+    }
+
+
+
+ .modalstylecred {
+        color: #FFF9F2;
+
+    }
+
+.barrita {
+    border-top: 1px solid #F92900;
+    width: 32px;
+    margin-bottom: 12px;
+}
+
+.barritam {
+border-top: 1px solid #FCF0EB;
+    width: 32px;
+    margin-bottom: 12px;
+}
+
+
+
+.footer {
+    color: #837B7B;
+}
+
+a.footer {
+    border-bottom: 1px solid #837B7B !important;
+    color: #837B7B;
+    text-transform: none;
+}
+
+a.footer:hover {
+    border-bottom: 1px solid #1732CC !important;
+    color: #1732CC;
+    text-transform: none;
+}
+
+a.footer:visited {
+    border-bottom: 1px solid #837B7B !important;
+    color: #837B7B;
+    text-transform: none;
+}
+
+
