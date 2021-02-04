@@ -50,47 +50,55 @@
     }
 
 
- .paddingxsmall {
+    .paddingxsmall {
         margin-top: 8px;
     }
- .paddingxxsmall {
+
+    .paddingxxsmall {
         margin-top: 4px;
     }
+
+
+    @media print,
+    screen and (min-width: 40em) {
+
         .paddingsmall {
             margin-top: 24px;
         }
 
         .paddingmedium {
+            margin-top: 80px;
+        }
+
+        .paddingbig {
+            margin-top: 120px;
+        }
+
+    }
+
+    @media print,
+    screen and (max-width: 40em) {
+
+        .paddingsmall {
             margin-top: 32px;
+        }
+
+        .paddingmedium {
+            margin-top: 40px;
         }
 
         .paddingbig {
             margin-top: 80px;
         }
 
-        .padding56 {
-            margin-top: 24px;
-        }
-
     }
 
-@media print,
-screen and (min-width: 40em) {
-    
 
 
-    .paddingsmall {
+
+
+    .padding56 {
         margin-top: 24px;
-    }
-
-    .paddingmedium {
-        margin-top: 80px;
-    }
-
-    .paddingbig {
-        margin-top: 120px;
-    }
-    
     }
 
     .social {
@@ -105,7 +113,7 @@ screen and (min-width: 40em) {
         margin: 56px 0px 80px 0px;
     }
 
-.modalstyle {
+    .modalstyle {
         background-color: #F92900;
         color: #FCF0EB;
 
@@ -113,45 +121,43 @@ screen and (min-width: 40em) {
 
 
 
- .modalstylecred {
+    .modalstylecred {
         color: #FFF9F2;
 
     }
 
-.barrita {
-    border-top: 1px solid #F92900;
-    width: 32px;
-    margin-bottom: 12px;
-}
+    .barrita {
+        border-top: 1px solid #F92900;
+        width: 32px;
+        margin-bottom: 12px;
+    }
 
-.barritam {
-border-top: 1px solid #FCF0EB;
-    width: 32px;
-    margin-bottom: 12px;
-}
-
-
-
-.footer {
-    color: #837B7B;
-}
-
-a.footer {
-    border-bottom: 1px solid #837B7B !important;
-    color: #837B7B;
-    text-transform: none;
-}
-
-a.footer:hover {
-    border-bottom: 1px solid #1732CC !important;
-    color: #1732CC;
-    text-transform: none;
-}
-
-a.footer:visited {
-    border-bottom: 1px solid #837B7B !important;
-    color: #837B7B;
-    text-transform: none;
-}
+    .barritam {
+        border-top: 1px solid #FCF0EB;
+        width: 32px;
+        margin-bottom: 12px;
+    }
 
 
+
+    .footer {
+        color: #837B7B;
+    }
+
+    a.footer {
+        border-bottom: 1px solid #837B7B !important;
+        color: #837B7B;
+        text-transform: none;
+    }
+
+    a.footer:hover {
+        border-bottom: 1px solid #1732CC !important;
+        color: #1732CC;
+        text-transform: none;
+    }
+
+    a.footer:visited {
+        border-bottom: 1px solid #837B7B !important;
+        color: #837B7B;
+        text-transform: none;
+    }
