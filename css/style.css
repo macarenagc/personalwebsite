@@ -1,5 +1,5 @@
     body {
-        font-family: 'Georgia', serif;
+        font-family: font-family: mrs-eaves-xl-serif, serif;
         background-color: #FCF0EB;
         font-weight: 400;
         font-style: normal;
@@ -50,11 +50,14 @@
     }
 
 
-    @media print,
-    screen and (max-width: 40em) {
-
+ .paddingxsmall {
+        margin-top: 8px;
+    }
+ .paddingxxsmall {
+        margin-top: 4px;
+    }
         .paddingsmall {
-            margin-top: 8px;
+            margin-top: 24px;
         }
 
         .paddingmedium {
@@ -62,7 +65,7 @@
         }
 
         .paddingbig {
-            margin-top: 40px;
+            margin-top: 80px;
         }
 
         .padding56 {
@@ -70,12 +73,11 @@
         }
 
     }
- .paddingxsmall {
-        margin-top: 8px;
-    }
- .paddingxxsmall {
-        margin-top: 4px;
-    }
+
+@media print,
+screen and (min-width: 40em) {
+    
+
 
     .paddingsmall {
         margin-top: 24px;
@@ -87,6 +89,8 @@
 
     .paddingbig {
         margin-top: 120px;
+    }
+    
     }
 
     .social {

@@ -3673,8 +3673,8 @@ h1,
     font-family: mrs-eaves-xl-serif-narrow, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 44px;
-    line-height: 50px;
+    font-size: 28px;
+    line-height: 34px;
 }
 
 h2,
@@ -3694,7 +3694,7 @@ h3,
 .h3 {
     font-family: mrs-eaves-xl-serif, serif;
     font-style: italic;
-    font-weight: 00;
+    font-weight: 700;
 }
 
 h4,
@@ -3736,18 +3736,10 @@ p,
     font-family: mrs-eaves-xl-serif, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
 }
 
-p,
-.pb {
-    font-family: acumin-pro;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-}
 
 @media print,
 screen and (min-width: 40em) {
@@ -3757,8 +3749,8 @@ screen and (min-width: 40em) {
         font-family: mrs-eaves-xl-serif-narrow, serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 32px;
-        line-height: 40px;
+        font-size: 44px;
+        line-height: 50px;
     }
 
     h2,
@@ -3822,14 +3814,6 @@ screen and (min-width: 40em) {
     line-height: 28px;
     }
 
-    .pb {
-        font-family: acumin-pro;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
-    }
-}
 
 a {
     line-height: inherit;
