@@ -51,7 +51,7 @@
 
 
     .paddingxsmall {
-        margin-top: 8px;
+        margin-top: 12px;
     }
 
     .paddingxxsmall {
@@ -133,7 +133,7 @@
     }
 
     .barritam {
-        border-top: 1px solid #FCF0EB;
+        border-top: 1px solid #1732CC;
         width: 32px;
         margin-bottom: 12px;
     }

@@ -5925,23 +5925,23 @@ screen and (max-width: 63.99875em) {
 
 .close-button:hover,
 .close-button:focus {
-    color: #BDB6AD;
+    color: #F92900;
 }
 
 
-.close-button-c {
+.close-button.c {
     position: absolute;
     z-index: 10;
     color: #1732CC; 
     cursor: pointer;
 }
 
-[data-whatinput='mouse'] .close-button {
+[data-whatinput='mouse'] .close-button.c {
     outline: 0;
 }
 
-.close-button-c:hover,
-.close-button-c:focus {
+.close-button.c:hover,
+.close-button.c:focus {
     color: #F92900;
 }
 
