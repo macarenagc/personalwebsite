@@ -3813,7 +3813,7 @@ screen and (min-width: 40em) {
     font-size: 20px;
     line-height: 28px;
     }
-
+}
 
 a {
     line-height: inherit;
@@ -4166,7 +4166,7 @@ screen and (min-width: 64em) {
 }
 
 .bttnmodal:hover,
-.bttnmodal:focus {
+.bttnmodal:focus{
     background-color: #010E1A !important;
     padding: 15px 1em;
     color: #FFF9F2 !important;
@@ -5937,8 +5937,8 @@ screen and (max-width: 63.99875em) {
 
 .close-button.medium,
 .close-button {
-    right: 1rem;
-    top: 0.5rem;
+    right: 2rem;
+    top: 1.5rem;
     font-size: 2em;
     line-height: 1;
 }
