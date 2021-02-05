@@ -75,7 +75,7 @@
 
                 <div class="barrita paddingsmall"></div>
                 <h2>Contact</h2>
-                <p class="paddingxsmall"><a href = "mailto: macarena.gcazon@gmail.com" target="_blank">Email</a> | <a href="https://www.linkedin.com/in/macarena-gonzalez-cazon-7474b4139/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/macarena_gc/" target="_blank">Instagram</a> | <a href="https://pinterest.com/macarenagc/" target="_blank">Pinterest</a> | <a href="https://dribbble.com/macarena_gc" target="_blank">Dribbble</a></p>
+                <p class="paddingxsmall"><a href="mailto: macarena.gcazon@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/macarena-gonzalez-cazon-7474b4139/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/macarena_gc/" target="_blank">Instagram</a> | <a href="https://pinterest.com/macarenagc/" target="_blank">Pinterest</a> | <a href="https://dribbble.com/macarena_gc" target="_blank">Dribbble</a></p>
             </div>
 
         </div>
@@ -96,8 +96,14 @@
 
                 <div class="barrita paddingsmall"></div>
                 <h2>Contact</h2>
-                <p class="paddingxsmall"><a href = "mailto: macarena.gcazon@gmail.com" target="_blank">Email</a> | <a href="https://www.linkedin.com/in/macarena-gonzalez-cazon-7474b4139/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/macarena_gc/" target="_blank">Instagram</a> | <a href="https://pinterest.com/macarenagc/" target="_blank">Pinterest</a> | <a href="https://dribbble.com/macarena_gc" target="_blank">Dribbble</a></p>
+                <p class="paddingxsmall"><input type="text" value="macarena.gcazon@gmail.com" id="myInput" style="display: none">
+                    <a onclick="myFunction()">Email</a> | <a href="https://www.linkedin.com/in/macarena-gonzalez-cazon-7474b4139/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/macarena_gc/" target="_blank">Instagram</a> | <a href="https://pinterest.com/macarenagc/" target="_blank">Pinterest</a> | <a href="https://dribbble.com/macarena_gc" target="_blank">Dribbble</a></p>
+
+
+
+
             </div>
+
 
             <div class="large-4 medium-4 cell paddingmedium">
                 <div class="barrita"></div>
@@ -126,14 +132,14 @@
             </div>
         </div>
 
-
-
     </div>
 
+
+
     <div class="small reveal modalstyle" id="creditos" data-reveal>
-        <div class="barritam"></div>
-        <h1 class="h2 modalstyle">Colophon</h1>
-        <p class="modalstyle paddingsmall">Designed and coded by yours truly.</p>
+        <div class="barrita"></div>
+        <h1 class="h2">Colophon</h1>
+        <p class="modalstyle paddingxsmall">Designed and coded by yours truly.</p>
         <p class="modalstyle paddingxsmall">This site is set in Mrs Eaves XL Serif & Reason New.</p>
         <button class="close-button medium c" data-close aria-label="Close modal" type="button">
             <span aria-hidden="true">&times;</span>
@@ -176,7 +182,7 @@
     </div>
 
     <div class="small reveal modalstylecred" id="coffee" data-reveal>
-        <img src="media/Coffee.png" >
+        <img src="media/Coffee.png">
         <button class="close-button medium" data-close aria-label="Close modal" type="button">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -190,5 +196,14 @@
     <script src="js/imghero.js"></script>
     <script>
         $(document).foundation();
+    </script>
+    <script>
+        function myFunction() {
+            var copyText = document.getElementById("myInput");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            alert("E-mail copied to clipboard | " + copyText.value);
+        }
     </script>
 </body></html>
