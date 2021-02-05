@@ -5915,7 +5915,7 @@ screen and (max-width: 63.99875em) {
 .close-button {
     position: absolute;
     z-index: 10;
-    color: #BDB6AD;
+    color: #FCF0EB; 
     cursor: pointer;
 }
 
@@ -5925,7 +5925,24 @@ screen and (max-width: 63.99875em) {
 
 .close-button:hover,
 .close-button:focus {
-    color: #6B6B6B;
+    color: #BDB6AD;
+}
+
+
+.close-button-c {
+    position: absolute;
+    z-index: 10;
+    color: #1732CC; 
+    cursor: pointer;
+}
+
+[data-whatinput='mouse'] .close-button {
+    outline: 0;
+}
+
+.close-button-c:hover,
+.close-button-c:focus {
+    color: #F92900;
 }
 
 .close-button.small {
@@ -7811,7 +7828,7 @@ html.is-reveal-open body {
     left: 0;
     z-index: 1005;
     display: none;
-    background-color: rgba(10, 10, 10, 0.85);
+    background-color: rgba(10, 10, 10, 0.5);
     overflow-y: auto;
 }
 
