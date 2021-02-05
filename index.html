@@ -35,6 +35,20 @@
     <link rel="icon" type="image/png" href="media/Icon32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="media/Icon64.png" sizes="64x64">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133942362-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133942362-1');
+
+    </script>
+
 </head>
 
 <body>
@@ -93,14 +107,14 @@
                 <h2>Education</h2>
                 <p class="paddingxsmall">Universidad Nacional del Litoral | <i>BA in Visual Communication Design, 2018</i></p>
                 <p class="paddingxsmall">Universidad Tecnológica Nacional | <i>Postgraduate Diploma in Accesibility and Usability, 2020</i></p>
-                
+
 
                 <div class="barrita paddingsmall"></div>
                 <h2>Contact</h2>
                 <p class="paddingxsmall">
                     <a onclick="myFunction()">Email</a> | <a href="https://www.linkedin.com/in/macarena-gonzalez-cazon-7474b4139/" target="_blank">LinkedIn</a> | <a href="https://www.instagram.com/macarena_gc/" target="_blank">Instagram</a> | <a href="https://pinterest.com/macarenagc/" target="_blank">Pinterest</a> | <a href="https://dribbble.com/macarena_gc" target="_blank">Dribbble</a></p>
 
-                <input type="text" value="macarena.gcazon@gmail.com" id="myInput" class="email"> 
+                <input type="text" value="macarena.gcazon@gmail.com" id="myInput" class="email">
 
 
             </div>
@@ -197,8 +211,9 @@
     <script src="js/imghero.js"></script>
     <script>
         $(document).foundation();
+
     </script>
-    
+
     <script>
         function myFunction() {
             var copyText = document.getElementById("myInput");
@@ -207,6 +222,9 @@
             document.execCommand("copy");
             alert("E-mail copied to clipboard | " + copyText.value);
         }
+
     </script>
-    
-</body></html>
+
+</body>
+
+</html>
