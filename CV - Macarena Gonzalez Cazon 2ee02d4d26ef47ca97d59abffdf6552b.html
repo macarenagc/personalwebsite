@@ -1,0 +1,668 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>CV - Macarena Gonzalez Cazon</title><style>
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
+
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
+
+.highlight-default {
+}
+.highlight-gray {
+	color: rgb(155,154,151);
+}
+.highlight-brown {
+	color: rgb(100,71,58);
+}
+.highlight-orange {
+	color: rgb(217,115,13);
+}
+.highlight-yellow {
+	color: rgb(223,171,1);
+}
+.highlight-teal {
+	color: rgb(15,123,108);
+}
+.highlight-blue {
+	color: rgb(11,110,153);
+}
+.highlight-purple {
+	color: rgb(105,64,165);
+}
+.highlight-pink {
+	color: rgb(173,26,114);
+}
+.highlight-red {
+	color: rgb(224,62,62);
+}
+.highlight-gray_background {
+	background: rgb(235,236,237);
+}
+.highlight-brown_background {
+	background: rgb(233,229,227);
+}
+.highlight-orange_background {
+	background: rgb(250,235,221);
+}
+.highlight-yellow_background {
+	background: rgb(251,243,219);
+}
+.highlight-teal_background {
+	background: rgb(221,237,234);
+}
+.highlight-blue_background {
+	background: rgb(221,235,241);
+}
+.highlight-purple_background {
+	background: rgb(234,228,242);
+}
+.highlight-pink_background {
+	background: rgb(244,223,235);
+}
+.highlight-red_background {
+	background: rgb(251,228,228);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(55, 53, 47, 0.6);
+	fill: rgba(55, 53, 47, 0.6);
+}
+.block-color-brown {
+	color: rgb(100,71,58);
+	fill: rgb(100,71,58);
+}
+.block-color-orange {
+	color: rgb(217,115,13);
+	fill: rgb(217,115,13);
+}
+.block-color-yellow {
+	color: rgb(223,171,1);
+	fill: rgb(223,171,1);
+}
+.block-color-teal {
+	color: rgb(15,123,108);
+	fill: rgb(15,123,108);
+}
+.block-color-blue {
+	color: rgb(11,110,153);
+	fill: rgb(11,110,153);
+}
+.block-color-purple {
+	color: rgb(105,64,165);
+	fill: rgb(105,64,165);
+}
+.block-color-pink {
+	color: rgb(173,26,114);
+	fill: rgb(173,26,114);
+}
+.block-color-red {
+	color: rgb(224,62,62);
+	fill: rgb(224,62,62);
+}
+.block-color-gray_background {
+	background: rgb(235,236,237);
+}
+.block-color-brown_background {
+	background: rgb(233,229,227);
+}
+.block-color-orange_background {
+	background: rgb(250,235,221);
+}
+.block-color-yellow_background {
+	background: rgb(251,243,219);
+}
+.block-color-teal_background {
+	background: rgb(221,237,234);
+}
+.block-color-blue_background {
+	background: rgb(221,235,241);
+}
+.block-color-purple_background {
+	background: rgb(234,228,242);
+}
+.block-color-pink_background {
+	background: rgb(244,223,235);
+}
+.block-color-red_background {
+	background: rgb(251,228,228);
+}
+.select-value-color-default { background-color: rgba(206,205,202,0.5); }
+.select-value-color-gray { background-color: rgba(155,154,151, 0.4); }
+.select-value-color-brown { background-color: rgba(140,46,0,0.2); }
+.select-value-color-orange { background-color: rgba(245,93,0,0.2); }
+.select-value-color-yellow { background-color: rgba(233,168,0,0.2); }
+.select-value-color-green { background-color: rgba(0,135,107,0.2); }
+.select-value-color-blue { background-color: rgba(0,120,223,0.2); }
+.select-value-color-purple { background-color: rgba(103,36,222,0.2); }
+.select-value-color-pink { background-color: rgba(221,0,129,0.2); }
+.select-value-color-red { background-color: rgba(255,0,26,0.2); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="0e0d5656-b9ce-4cf2-ae35-e83b4013db4e" class="page sans"><header><img class="page-cover-image" src="CV%20-%20Macarena%20Gonzalez%20Cazon%202ee02d4d26ef47ca97d59abffdf6552b/01_-_Desktop_HD_(Extra_large).png" style="object-position:center 50%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="CV%20-%20Macarena%20Gonzalez%20Cazon%202ee02d4d26ef47ca97d59abffdf6552b/Icon64a.png"/></div><h1 class="page-title">CV - Macarena Gonzalez Cazon</h1></header><div class="page-body"><p id="20ab9a8e-a0a3-496d-9bcd-45f2e964771c" class="">
+</p><div id="767c7a7a-dc80-4b38-8061-7911d857c9fa" class="column-list"><div id="0098b12c-f2bb-4e3a-8300-a715b58c263e" style="width:50%" class="column"><figure id="2ee02d4d-26ef-47ca-97d5-9abffdf6552b" class="image"><a href="CV%20-%20Macarena%20Gonzalez%20Cazon%202ee02d4d26ef47ca97d59abffdf6552b/DSC_4992-4.jpg"><img style="width:480px" src="CV%20-%20Macarena%20Gonzalez%20Cazon%202ee02d4d26ef47ca97d59abffdf6552b/DSC_4992-4.jpg"/></a></figure></div><div id="7a572464-c324-4f78-9d93-265037f8a6e0" style="width:50%" class="column"><h2 id="1ff2b393-3aaf-4af5-9b87-8144bf12a14f" class="">Datos personales</h2><p id="4b9dae10-e3ce-43a1-b4cb-86f5e37fa072" class=""><strong>Nombre | </strong>Lelia Macarena Gonzalez Cazón</p><p id="ba5c38b0-af0a-4438-a961-136f3cb296d0" class=""><strong>Fecha de Nacimiento |</strong> 04 / 03 / 1994</p><p id="cfc409d5-7077-4d69-b043-8465b4fa52c6" class=""><strong>Nacionalidad | </strong>Argentina</p><p id="e28acd86-5ca6-46b7-b4d5-1f9900137e03" class=""><strong>Ciudad de residencia | </strong>Buenos Aires, Argentina</p><p id="cd3c7994-29fd-4eee-b8e8-1993459d3f1f" class=""><strong>E-mail |</strong> macarena.gcazon@gmail.com</p><p id="8c944b1c-2513-412c-9bbc-f8e15deffee1" class=""><strong>Teléfono |</strong> +54 342 5366838</p><p id="b7551b5a-fe63-4fcf-9354-660e1a6260c0" class=""><strong>Website | </strong><a href="https://macarenagc.com/">macarenagc.com</a></p></div></div><p id="0b486684-c268-4496-a273-ef459a98bfbc" class="">
+</p><p id="4258801b-6f0f-4ada-98c8-decfc0ab5e27" class="">
+</p><hr id="da2d194f-f0b8-43ef-8431-24b360b6f7d5"/><h2 id="2aa3ae10-3268-494b-9c03-e665fe7398fa" class="">Experiencia laboral</h2><p id="a9751d2e-9d6a-43da-a8f0-63595337f633" class=""><strong>2019-Actualidad | Indicius</strong>
+Diseñadora UX/UI</p><p id="85905388-7ee4-42b6-b6cf-6667dab28f09" class=""><strong>2019-Actualidad | Side projects freelance</strong>
+En estudios como MadebyHaus o Roselab</p><p id="68633045-8da8-46a2-a063-6c616ac48889" class=""><strong>2017-2019  | Municipalidad de la Ciudad de Santa Fe</strong>
+Actividades relacionadas al diseño editorial, infográfico y audiovisual.</p><p id="3cea0f1b-8754-49fc-9087-8c871119c453" class="">
+</p><p id="f88223f1-b286-44c6-aca1-92b7e3f87c35" class="">
+</p><hr id="15cb3c99-ff36-443c-b1c1-a0a10f171534"/><h2 id="66fe3f60-78ff-472a-93da-3b362785e741" class="">Portfolio - en progreso</h2><p id="0f559c83-1bab-461f-a820-89fa270f9a5e" class="">En este momento me encuentro trabajando en el rediseño de mi website, pero algunos proyectos en los que participe son los siguientes:</p><p id="428a7607-7212-45f9-a52f-76ce47e33cb7" class="">
+</p><p id="655fd114-1229-4dfe-b81c-3bb18095fe55" class="">Rediseño branding y website Indicius - <a href="https://www.indicius.com/">https://www.indicius.com/</a>
+Parte del equipo de 3 diseñadores que llevo a cabo el proyecto.</p><p id="fd2115b5-d233-4680-bfea-c16cf3666c63" class="">
+</p><p id="9ae541a8-7080-4be3-ac00-6eb5a92527a4" class="">Rediseño landing y onboarding Wayni - <a href="https://waynimovil.com/">https://waynimovil.com/</a>
+Parte del equipo de 2 diseñadores que llevo a cabo el proyecto.</p><p id="6cfdbc6c-ec94-4524-9af2-acf64704fea6" class="">
+</p><p id="27a00d74-6428-4f79-95f5-5f93daf536c1" class="">Trabajo práctico final Diplomatura - <a href="https://drive.google.com/drive/folders/1hAf2rIz9iY8pKFuAvUAUmkOsD-boJRns?usp=sharing">Link a la entrega</a>
+Parte del equipo de 4 diseñadores que llevo a cabo el proyecto.</p><p id="3654f922-a87e-45aa-88b8-18656b70f0e5" class="">
+</p><p id="6e839cfe-c7f6-4572-a425-cb0fdfb4f09d" class="">Design Sprint OSDE - <a href="https://www.indicius.com/work/osde">Link al case study</a>
+Parte del equipo de 2 diseñadores que llevo a cabo el proyecto.</p><p id="01e2f4f8-0d15-4d46-8e3f-5ee3f02ed107" class="">
+</p><p id="6e93ed7a-139b-4093-829d-c7ad6632dd09" class="">Rediseño website Observando - <a href="https://observando.net/">https://observando.net/</a>
+Diseño e ilustración.</p><p id="aa6b5ebb-467c-4b96-a3e6-dbec582cd89a" class="">
+</p><p id="93778163-5455-49b5-997c-1c4ab28c9b7b" class="">
+</p><hr id="6f947e3c-ddbe-4e42-9309-49ea8afbbf3d"/><h2 id="45545e64-0676-4981-8922-f1cbf80cc62f" class="">Estudios</h2><p id="9205cb3e-44ea-4732-89be-6bd324d62092" class=""><strong>
+Licenciatura en Diseño de la Comunicación Visual  | 2018</strong>
+Universidad Nacional del Litoral (Santa Fe, pcia. de Santa Fe)
+<em>Graduada con honores 2018 - Primer promedio</em></p><p id="7382753b-a530-4ce7-b19d-ed6c1f4c53ba" class="">
+</p><p id="9770c29c-85fd-447c-99e7-2d18604e73a4" class=""><strong>Diplomatura en Accesibilidad y Usabilidad | 2020</strong>
+Universidad Tecnológica Nacional (Buenos Aires, pcia. de Buenos Aires)
+<em>Proyecto distinguido - Buenos Vecinos App</em></p><p id="24bd4d05-2aae-468c-8c6b-b837ca8f2fc8" class="">
+</p><p id="956f2176-db83-40da-af98-27f7bd279eab" class=""><strong>Certificación en UX/UI | 2019</strong>
+Acámica</p><p id="b06e7120-465f-436a-ba2c-ad074d51bde9" class="">
+</p><p id="beef34eb-f603-41d3-8157-507d749723a9" class="">
+</p><hr id="17af9eaa-6ee7-49e8-9769-5301b4bd8626"/><h2 id="58b30b2e-fd89-4b42-8758-adf7112c3d08" class="">Idiomas</h2><p id="58e472df-e8b3-4c42-b891-42e10a31ed50" class=""><strong>Español | Nativo</strong></p><p id="5eab9fc1-0bd6-4ab8-ab09-df1c8c3ed682" class=""><strong>Inglés | Avanzado</strong>
+First Certificate Level C1 | Grade A</p><p id="99672f59-d527-49be-9d05-fe010343326a" class="">
+</p><p id="569ed3f6-ce97-433d-bed0-3700bf2483f6" class="">
+</p><hr id="dbc78dd2-7f05-4a5b-b358-4962cf7a54b2"/><h2 id="10571068-8b9a-4eb6-a363-9fc2a2f7e372" class="">Formación complementaria</h2><h3 id="88f388ec-bba5-4b6d-a36e-45f24aee2502" class="">Cursos de capacitación con dedicación horaria</h3><p id="2bd697be-06b0-4225-8f26-a619ab0203d6" class=""><strong>2015 | Introducción a la caligrafía formal</strong>
+Facultad de Arquitectura, Diseño y Urbanismo - UNL | 45 hs</p><p id="c6661eab-698e-470e-afb4-e07069ba769d" class=""><strong>2017 | Taller de diseño de interfaces en lenguaje HTML y CSS</strong>
+Facultad de Arquitectura, Diseño y Urbanismo - UNL | 30 hs
+</p><h3 id="ae90aebb-f86e-419a-b079-5c3ea2f0d42a" class="">Asistencia a Congresos</h3><p id="9808e09d-bd73-460b-9a91-538f364f3c28" class="">2012 | Congreso Internacional de Diseño Pixelations | 7o edición</p><p id="82709c5f-e859-4687-aa60-1a3e017ad86b" class="">2013 | Congreso Trimarchi Mar del Plata | 12o edición</p><p id="740b1583-310d-4f8e-bb16-1937fb4fe1ca" class="">2015 | Congreso Diseño en Palermo | 10o edición</p><p id="872ee491-0ccc-4bbd-8761-92982e8035b0" class="">
+</p><h3 id="62cf8c30-a3c7-4a35-a430-d5ed5c0d41d2" class="">Asistencia a Conferencias</h3><p id="b2f5e615-fb68-4b01-9a10-3fccd40dfb60" class="">2012 | Jorge Frascara | El valor escondido del diseño de comunicación</p><p id="0d25f134-f3d2-41fb-bac8-0a2720b04765" class="">2012 | Ricardo Cohen y Carlos Carpintero | Panel de arte urbano</p><p id="ee7d23ac-0f27-4c57-840c-f263c057bd67" class="">2014 | Marta Zátonyi | La kinesis como fuente del arte</p><p id="3081151b-3b12-421e-b61c-30cae5406ae8" class="">2014 | Esteban Serrano | La mala letra - Bienal Latinoamericana de Tipos Latinos</p><p id="a97a1da1-2d18-45cf-826f-d694745c59c4" class="">2015 | Dutari, Simonetti, Venancio | 3 Décadas, 3 Carreras, 3 Días</p><p id="7aabb4d9-10e6-42c1-ba2b-4be4e5f1a52b" class="">2017 | Fina estampa | Laura Varsky</p><p id="5214cf15-36a9-4835-9e41-b03d6651ae6c" class="">
+</p><h3 id="8f689f32-7efc-4862-ac81-e267873a8cd9" class="">Asistencia a Talleres, Jornadas y Workshops</h3><p id="093febeb-a004-44ec-8794-ef00e665bc50" class="">2013 | Jornada de Juegos de Mesa “De la teoría a la práctica” | FADU</p><p id="34b73252-a45b-4e2d-9508-44405b635eef" class="">2015 | Workshop de lettering dictado por Sofia Segovia | Ranchoaparte</p><p id="9a3b77e8-61ef-414f-90b1-71909cdc356a" class="">2015 | Taller de ideas – FADU</p><p id="ca637b25-4d67-4c97-ab30-27d293fd3dd1" class="">2016 | Taller de Handmade lettering dictado por Sofia Segovia – Bienal de Arte Joven</p><p id="896c486b-a9fd-45d7-8dee-1579a8d227da" class="">2017 | Hackaton Innpacta</p><p id="9536a983-f4cd-41a9-abe8-6fa254f59d64" class="">
+</p><p id="01e14cdf-e7f3-45d2-ae53-35420dcc195a" class="">
+</p><hr id="fc21f054-124c-43cb-8d99-f811a3fc67df"/><h2 id="a5cc6c0d-1e9f-41b8-bc49-0371dba2225f" class="">Actividad universitaria</h2><h3 id="9e091db2-904d-4540-a795-c5722ade90db" class="">Consejo universitario</h3><p id="84d57498-04fa-4ee4-91e1-861503251f8b" class="">2015 | Facultad de Arquitectura, Diseño y Urbanismo | Claustro estudiantil</p><h3 id="654535f9-2878-4cb9-a782-3715ad0c7e21" class="">Jurado estudiantil titular en Concursos Docentes</h3><p id="685c9e43-d363-42e6-a9ee-4baa1647fc2e" class="">2017 | Cargo de Profesor Titular | Taller II, III IV | Resolución 063-17</p><p id="6d8c0167-c8ca-4f80-875c-c8c3e0a06805" class="">2017 | Cargo de Profesor Adjunto | Taller II, III IV | Resolución 064-17</p><p id="2bfb10a9-722c-40c7-80e3-18d4e2d8dca7" class="">2017 | Cargo de Profesor Adjunto | Taller II, III IV | Resolución 065-17</p><p id="e4a961c1-422b-4813-98b7-9003760b6a42" class="">2017 | Cargo de Profesor Adjunto | Taller II, III IV | Resolución 066-17</p><p id="dbc38523-56cb-4b8d-ae12-28c165ca5da3" class="">2017 | Cargo de Jefe de Trabajos Prácticos | Taller II, III IV | Resolución 309-17</p><p id="4757b183-664c-4a70-9aad-261e729ddeaa" class="">2018 | Cargo de Jefe de Trabajos Prácticos | Tecnología III | Resolución 149-18</p><p id="0a22cd7e-441e-47bb-bab3-d877385d27f7" class="">2018 | Cargo de Jefe de Trabajos Prácticos | Taller II, III IV | Resolución 147-18</p><h3 id="179ff246-6054-4799-abc8-1accea0de9c1" class="">Pasantías en docencia</h3><p id="5ccc74f7-11cb-465c-af35-381725fed6ea" class="">2015 | Introducción a la comunicación | Cátedra Molinas</p><p id="a162367d-eec4-4ac2-80d6-e42005f3b7f4" class="">2017-2018 | Taller de diseño IV | Cátedra Gorodischer</p><h3 id="64200688-7d56-4234-ac09-27c326fcb23a" class="">Voluntariados</h3><p id="b88e0058-2f58-4a57-89df-481de4285ca4" class="">2017 | Proyecto de extensión | Efluentes domiciliarios: concientización sobre la necesidad de su
+tratamiento y posible reutilizaciónen el barrio Alto Verde de Santa Fe.</p></div></article></body></html>
