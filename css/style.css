@@ -1,5 +1,5 @@
    body {
-       font-family: font-family: mrs-eaves-xl-serif, serif;
+       font-family: 'Fraunces', serif;
        background-color: #FCF0EB;
        font-weight: 400;
        font-style: normal;
@@ -63,7 +63,7 @@
    screen and (min-width: 40em) {
 
        .paddingsmall {
-           margin-top: 32px;
+           margin-top: 56px;
        }
 
        .paddingmedium {
@@ -116,7 +116,6 @@
    .modalstyle {
        background-color: #FCF0EB;
        color: #1732CC;
-
    }
 
 
