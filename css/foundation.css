@@ -18,6 +18,18 @@ screen and (min-width: 40em) {
         margin: 0 auto;
     }
 }
+@media print,
+screen and (max-width: 40em) {
+
+    .reveal,
+    .reveal.tiny,
+    .reveal.small,
+    .reveal.large {
+        right: auto;
+        left: auto;
+        margin: 0 auto;
+    }
+}
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -7895,7 +7907,7 @@ screen and (min-width: 40em) {
 @media print,
 screen and (max-width: 40em) {
     .reveal.small {
-padding-top: 5g0%;
+padding-top: 50%;
     }
 }
 
