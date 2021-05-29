@@ -7907,7 +7907,7 @@ screen and (min-width: 40em) {
 @media print,
 screen and (max-width: 40em) {
     .reveal.small {
-padding-top: 50%;
+padding-top: 30%;
     }
 }
 
