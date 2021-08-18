@@ -190,18 +190,28 @@
        font-style: normal;
        font-weight: 500;
        line-height: 16px;
+    
+   }
 
+p.idioma{
+    
+}
+
+a.idioma {
+       border-bottom: none !important;
+       color: #837B7B;
+       font-weight: 500;
+       text-transform: none;
    }
 
    a.idioma:hover {
        border-bottom: 1px solid #1732CC !important;
-       color: #1732CC;
+       color: #1732CC !important;
        text-transform: none;
    }
 
    a.idioma:visited {
-       border-bottom: 1px solid #1732CC !important;
-       color: #1732CC;
+       color: #837B7B;
        text-transform: none;
    }
 
