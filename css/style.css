@@ -232,7 +232,7 @@ a.buttonhola {
     text-transform: uppercase;
     color: #FCF0EB;
     background-color: #1732CC;
-    padding: 16px 16px;
+    padding: 16px 16px 12px 16px;
      border: 1px solid #1732CC !important;
 }
 
