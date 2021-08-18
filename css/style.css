@@ -58,6 +58,10 @@
        margin-top: 4px;
    }
 
+.paddingxxxsmall {
+       margin-top: 24px;
+   }
+
 
    @media print,
    screen and (min-width: 40em) {
@@ -178,4 +182,100 @@
    .email {
        opacity: 0;
        cursor: default;
+   }
+
+   .idioma {
+       font-family: reason-new, sans-serif;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 16px;
+
+   }
+
+   a.idioma:hover {
+       border-bottom: 1px solid #1732CC !important;
+       color: #1732CC;
+       text-transform: none;
+   }
+
+   a.idioma:visited {
+       border-bottom: 1px solid #1732CC !important;
+       color: #1732CC;
+       text-transform: none;
+   }
+
+   .centertext {
+       text-align: center;
+   }
+
+a.buttonhola {
+     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: reason-new, sans-serif;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FCF0EB;
+    background-color: #1732CC;
+    padding: 16px 16px;
+     border: 1px solid #1732CC !important;
 }
+
+a.buttonhola:hover {
+    color: #1732CC;
+    background-color: #FCF0EB;
+    border: 1px solid #1732CC !important;
+}
+
+
+
+ .mailto-link {
+       position: relative;
+   }
+
+   .mailto-message { 
+       font-family: reason-new, sans-serif;
+       bottom: 0px;
+       left: 0;
+       margin-bottom: -8px;
+       transform: translate(0%, 100%);
+       position: absolute;
+       display: none;
+       width: auto;
+       white-space: nowrap;
+       font-size: 12px;
+       background-color: black;
+       color: white;
+       padding: 4px 8px;
+       border-radius: 2px;
+
+       &:after,
+       &:before {
+           content: '';
+       }
+
+       &:before {
+           top: 100%;
+           left: 50%;
+           border: solid transparent;
+           height: 0;
+           width: 0;
+           position: absolute;
+           pointer-events: none;
+           border-color: rgba(0, 0, 0, 0);
+           border-top-color: #000000;
+           border-width: 4px;
+           margin-left: -4px;
+       }
+   }
+
+   .mailto-link:hover .mailto-message,
+   .mailto-link:focus .mailto-message,
+   .mailto-link:focus-within .mailto-message {
+       display: block;
+   }

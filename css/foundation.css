@@ -3747,13 +3747,8 @@ p,
     font-family: 'Fraunces', serif;
     font-weight: 300;
     font-style: normal;
-<<<<<<< HEAD
-    font-size: 16px;
-    line-height: 26px;
-=======
     font-size: 18px;
     line-height: 28px;
->>>>>>> 5f56ae69a9a54b221dc23f36685e46bbbe9634f8
 }
 
 
@@ -7912,11 +7907,7 @@ screen and (min-width: 40em) {
 @media print,
 screen and (max-width: 40em) {
     .reveal.small {
-<<<<<<< HEAD
-padding-top: 5g0%;
-=======
 padding-top: 30%;
->>>>>>> 5f56ae69a9a54b221dc23f36685e46bbbe9634f8
     }
 }
 
