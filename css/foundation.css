@@ -3670,11 +3670,11 @@ h6 small,
 
 h1,
 .h1 {
-    font-family: mrs-eaves-xl-serif-narrow, serif;
+    font-family: 'Fraunces', serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
 }
 
 h2,
@@ -3692,9 +3692,8 @@ h2,
 
 h3,
 .h3 {
-    font-family: mrs-eaves-xl-serif, serif;
-    font-style: italic;
-    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
 }
 
 h4,
@@ -3733,11 +3732,11 @@ h6,
 
 p,
 .p {
-    font-family: mrs-eaves-xl-serif, serif;
-    font-weight: 400;
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
     font-style: normal;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 
@@ -3746,11 +3745,11 @@ screen and (min-width: 40em) {
 
     h1,
     .h1 {
-        font-family: mrs-eaves-xl-serif-narrow, serif;
+        font-family: 'Fraunces', serif;
         font-style: normal;
-        font-weight: 400;
-        font-size: 44px;
-        line-height: 50px;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 48px;
     }
 
     h2,
@@ -3767,9 +3766,8 @@ screen and (min-width: 40em) {
 
     h3,
     .h3 {
-        font-family: mrs-eaves-xl-serif, serif;
-        font-style: italic;
-        font-weight: 700;
+        font-family: 'Fraunces', serif;
+        font-weight: 600;
     }
 
     h4,
@@ -3807,11 +3805,11 @@ screen and (min-width: 40em) {
 
     p,
     .p {
-        font-family: mrs-eaves-xl-serif, serif;
-    font-weight: 400;
+        font-family: 'Fraunces', serif;
+    font-weight: 300;
     font-style: normal;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
+    line-height: 26px;
     }
 }
 
@@ -7891,6 +7889,13 @@ screen and (min-width: 40em) {
     .reveal.small {
         width: 50%;
         max-width: 40rem;
+    }
+}
+
+@media print,
+screen and (max-width: 40em) {
+    .reveal.small {
+padding-top: 5g0%;
     }
 }
 
